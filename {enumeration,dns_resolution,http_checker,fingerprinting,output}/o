@@ -1,0 +1,2404 @@
+{
+  "target": "tryhackme.com",
+  "generated_at": "2026-08-22T18:17:55.671705+00:00",
+  "total_subdomains": 53,
+  "results": [
+    {
+      "subdomain": "flowcheck.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "172.67.72.108",
+        "104.26.15.135",
+        "104.26.14.135"
+      ],
+      "ipv6": [
+        "2606:4700:20::681a:e87",
+        "2606:4700:20::ac43:486c",
+        "2606:4700:20::681a:f87"
+      ],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://flowcheck.tryhackme.com/login",
+      "redirect_chain": [
+        "https://flowcheck.tryhackme.com/"
+      ],
+      "response_time": 407.83,
+      "content_type": "text/html; charset=UTF-8",
+      "page_title": "login - flowcheck",
+      "server": "cloudflare",
+      "technologies": [
+        {
+          "name": "Cloudflare",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "tryhackme.com",
+        "issuer": "WE1",
+        "not_after": "2026-11-19T05:51:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "resources.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "199.60.103.2",
+        "199.60.103.254"
+      ],
+      "ipv6": [
+        "2606:2c40::c73c:6702",
+        "2606:2c40::c73c:67fe"
+      ],
+      "cname": "7168674.group24.sites.hubspot.net",
+      "dns_error": null,
+      "http_status": 404,
+      "https_status": 404,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://resources.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 436.36,
+      "content_type": "text/html",
+      "page_title": "Open main menu",
+      "server": "cloudflare",
+      "technologies": [
+        {
+          "name": "Cloudflare",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'Server' header"
+        },
+        {
+          "name": "jQuery",
+          "category": "JS Library",
+          "version": null,
+          "confidence": "High",
+          "evidence": "HTML body signature"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "e5e27f40.sni.cloudflaressl.com",
+        "issuer": "YE2",
+        "not_after": "2026-09-23T05:20:34+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "snapshot-costs.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "3.174.255.117",
+        "3.174.255.30",
+        "3.174.255.113",
+        "3.174.255.31"
+      ],
+      "ipv6": [
+        "2600:9000:20a2:1c00:1a:34f4:9f00:93a1",
+        "2600:9000:20a2:7800:1a:34f4:9f00:93a1",
+        "2600:9000:20a2:9000:1a:34f4:9f00:93a1",
+        "2600:9000:20a2:b000:1a:34f4:9f00:93a1",
+        "2600:9000:20a2:800:1a:34f4:9f00:93a1",
+        "2600:9000:20a2:c00:1a:34f4:9f00:93a1",
+        "2600:9000:20a2:8000:1a:34f4:9f00:93a1",
+        "2600:9000:20a2:d800:1a:34f4:9f00:93a1"
+      ],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://snapshot-costs.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 575.96,
+      "content_type": "text/html",
+      "page_title": "CDD snapshot costs",
+      "server": "AmazonS3",
+      "technologies": [
+        {
+          "name": "Amazon CloudFront",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Amz-Cf-Id' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "snapshot-costs.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2027-02-05T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "proxy.lb-architect.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "52.208.155.189"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://proxy.lb-architect.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 452.33,
+      "content_type": "text/html",
+      "page_title": "Welcome to nginx!",
+      "server": "nginx/1.24.0 (Ubuntu)",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.24.0",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "proxy.lb-architect.tryhackme.com",
+        "issuer": "YE2",
+        "not_after": "2026-09-02T02:48:41+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "reverse-proxy-us-east-1.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "44.199.66.136"
+      ],
+      "ipv6": [],
+      "cname": "nginxreversepro-sauuafzs-fe3bafcd98c73a67.elb.us-east-1.amazonaws.com",
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://reverse-proxy-us-east-1.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 740.2,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.0",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.0",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "reverse-proxy-us-east-1.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M04",
+        "not_after": "2026-12-24T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "business.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "104.26.14.135",
+        "172.67.72.108",
+        "104.26.15.135"
+      ],
+      "ipv6": [
+        "2606:4700:20::681a:f87",
+        "2606:4700:20::ac43:486c",
+        "2606:4700:20::681a:e87"
+      ],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://tryhackme.com/business/landing/cyber-security-training-for-teams",
+      "redirect_chain": [
+        "https://business.tryhackme.com/"
+      ],
+      "response_time": 662.36,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Cyber Security Training for Teams | TryHackMe",
+      "server": "Vercel",
+      "technologies": [
+        {
+          "name": "Next.js",
+          "category": "JS Framework",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Powered-By' header"
+        },
+        {
+          "name": "Vercel",
+          "category": "Hosting/CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Vercel-Id' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "tryhackme.com",
+        "issuer": "WE1",
+        "not_after": "2026-10-17T21:21:42+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-us-east-1a.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "34.232.161.3"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-us-east-1a.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 735.4,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-us-east-1a.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M04",
+        "not_after": "2026-12-23T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-eu-west-1c.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "52.30.39.72"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-eu-west-1c.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 433.84,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-eu-west-1c.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M04",
+        "not_after": "2026-12-23T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "help.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "104.26.14.135",
+        "104.26.15.135",
+        "172.67.72.108"
+      ],
+      "ipv6": [
+        "2606:4700:20::681a:e87",
+        "2606:4700:20::681a:f87",
+        "2606:4700:20::ac43:486c"
+      ],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://help.tryhackme.com/en/",
+      "redirect_chain": [
+        "https://help.tryhackme.com/"
+      ],
+      "response_time": 1010.79,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Home | TryHackMe Customer Hub",
+      "server": "cloudflare",
+      "technologies": [
+        {
+          "name": "Cloudflare",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'Server' header"
+        },
+        {
+          "name": "Next.js",
+          "category": "JS Framework",
+          "version": null,
+          "confidence": "High",
+          "evidence": "HTML body signature"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "help.tryhackme.com",
+        "issuer": "WR1",
+        "not_after": "2026-10-04T08:12:43+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "squawker-vpn.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "52.84.45.36",
+        "52.84.45.111",
+        "52.84.45.129",
+        "52.84.45.50"
+      ],
+      "ipv6": [
+        "2600:9000:2175:4200:15:6054:3a00:93a1",
+        "2600:9000:2175:d400:15:6054:3a00:93a1",
+        "2600:9000:2175:d200:15:6054:3a00:93a1",
+        "2600:9000:2175:4e00:15:6054:3a00:93a1",
+        "2600:9000:2175:c00:15:6054:3a00:93a1",
+        "2600:9000:2175:0:15:6054:3a00:93a1",
+        "2600:9000:2175:b200:15:6054:3a00:93a1",
+        "2600:9000:2175:6e00:15:6054:3a00:93a1"
+      ],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://squawker-vpn.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 560.14,
+      "content_type": "text/html",
+      "page_title": null,
+      "server": "AmazonS3",
+      "technologies": [
+        {
+          "name": "Amazon CloudFront",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Amz-Cf-Id' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "squawker-vpn.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2027-02-25T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "admin.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "104.26.14.135",
+        "104.26.15.135",
+        "172.67.72.108"
+      ],
+      "ipv6": [
+        "2606:4700:20::ac43:486c",
+        "2606:4700:20::681a:f87",
+        "2606:4700:20::681a:e87"
+      ],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "redirect_chain": [
+        "https://admin.tryhackme.com/"
+      ],
+      "response_time": 1810.57,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": null,
+      "server": "ESF",
+      "technologies": [],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "tryhackme.com",
+        "issuer": "WE1",
+        "not_after": "2026-10-17T21:21:42+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "www.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "64.239.123.129",
+        "64.239.109.129"
+      ],
+      "ipv6": [],
+      "cname": "6b0c2bd251663ba5.vercel-dns-013.com",
+      "dns_error": null,
+      "http_status": 429,
+      "https_status": 429,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://www.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 290.7,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Vercel Security Checkpoint",
+      "server": "Vercel",
+      "technologies": [
+        {
+          "name": "Vercel",
+          "category": "Hosting/CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Vercel-Id' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "www.tryhackme.com",
+        "issuer": "YR2",
+        "not_after": "2026-10-26T17:29:10+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-eu-west-1a.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "3.248.110.42"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-eu-west-1a.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 412.18,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-eu-west-1a.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2026-12-23T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "64.239.109.129",
+        "64.239.123.129"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 350.08,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Learn Cyber Security | TryHackMe Cyber Training",
+      "server": "Vercel",
+      "technologies": [
+        {
+          "name": "Next.js",
+          "category": "JS Framework",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Powered-By' header"
+        },
+        {
+          "name": "Vercel",
+          "category": "Hosting/CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Vercel-Id' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "tryhackme.com",
+        "issuer": "YR2",
+        "not_after": "2026-10-22T02:34:13+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "reverse-proxy-eu-west-1.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "54.155.224.201"
+      ],
+      "ipv6": [],
+      "cname": "nginxreversepro-bebnkcch-8b5a3fb69be64a50.elb.eu-west-1.amazonaws.com",
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://reverse-proxy-eu-west-1.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 417.04,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.0",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.0",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "reverse-proxy-eu-west-1.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M04",
+        "not_after": "2026-12-24T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-eu-west-3c.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "13.37.185.170"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-eu-west-3c.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 339.54,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-eu-west-3c.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2027-02-23T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "guacaworker.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "172.67.72.108",
+        "104.26.14.135",
+        "104.26.15.135"
+      ],
+      "ipv6": [
+        "2606:4700:20::ac43:486c",
+        "2606:4700:20::681a:e87",
+        "2606:4700:20::681a:f87"
+      ],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 400,
+      "https_status": 400,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://guacaworker.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 370.04,
+      "content_type": "text/plain;charset=UTF-8",
+      "page_title": null,
+      "server": "cloudflare",
+      "technologies": [
+        {
+          "name": "Cloudflare",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.guacaworker.tryhackme.com",
+        "issuer": "WE1",
+        "not_after": "2026-09-27T21:12:57+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "store.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "23.227.38.74"
+      ],
+      "ipv6": [
+        "2620:127:f00f:e::"
+      ],
+      "cname": "shops.myshopify.com",
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://store.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 729.51,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "TryHackMe Store",
+      "server": "cloudflare",
+      "technologies": [
+        {
+          "name": "Cloudflare",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'Server' header"
+        },
+        {
+          "name": "Shopify",
+          "category": "E-commerce",
+          "version": null,
+          "confidence": "High",
+          "evidence": "HTML body signature"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "store.tryhackme.com",
+        "issuer": "YE1",
+        "not_after": "2026-10-29T14:35:02+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-eu-west-3b.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "52.47.106.100"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-eu-west-3b.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 352.77,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-eu-west-3b.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2027-02-23T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-us-east-1b.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "98.94.220.249"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-us-east-1b.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 746.88,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-us-east-1b.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2026-12-23T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-us-east-1c.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "52.7.177.138"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-us-east-1c.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 744.02,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-us-east-1c.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2026-12-31T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "blog.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "52.85.118.86",
+        "52.85.118.90",
+        "52.85.118.113",
+        "52.85.118.20"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://tryhackme.com/resources/blog",
+      "redirect_chain": [
+        "https://blog.vm.tryhackme.com/",
+        "https://tryhackme.com/resources/blog/"
+      ],
+      "response_time": 782.03,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "TryHackMe | Resources",
+      "server": "Vercel",
+      "technologies": [
+        {
+          "name": "Next.js",
+          "category": "JS Framework",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Powered-By' header"
+        },
+        {
+          "name": "Vercel",
+          "category": "Hosting/CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Vercel-Id' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "blog.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2027-02-02T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "careers.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "207.120.37.202",
+        "207.120.37.106",
+        "207.120.37.200",
+        "207.120.37.197",
+        "207.120.37.104",
+        "207.120.37.101",
+        "207.120.37.100",
+        "207.120.37.198"
+      ],
+      "ipv6": [],
+      "cname": "ext.teamtailor.com",
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://careers.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 680.03,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "TryHackMe Careers - TryHackMe",
+      "server": null,
+      "technologies": [],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "careers.tryhackme.com",
+        "issuer": "YR1",
+        "not_after": "2026-11-03T06:45:25+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "docs.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "172.67.72.108",
+        "104.26.14.135",
+        "104.26.15.135"
+      ],
+      "ipv6": [
+        "2606:4700:20::ac43:486c",
+        "2606:4700:20::681a:e87",
+        "2606:4700:20::681a:f87"
+      ],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://help.tryhackme.com/en/",
+      "redirect_chain": [
+        "https://docs.tryhackme.com/",
+        "https://help.tryhackme.com/"
+      ],
+      "response_time": 1145.13,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Home | TryHackMe Customer Hub",
+      "server": "cloudflare",
+      "technologies": [
+        {
+          "name": "Cloudflare",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'Server' header"
+        },
+        {
+          "name": "Next.js",
+          "category": "JS Framework",
+          "version": null,
+          "confidence": "High",
+          "evidence": "HTML body signature"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "tryhackme.com",
+        "issuer": "WE1",
+        "not_after": "2026-10-17T21:21:42+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-us-west-2c.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "54.244.83.203"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-us-west-2c.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 2197.76,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-us-west-2c.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2027-03-03T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "remote.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "172.67.72.108",
+        "104.26.14.135",
+        "104.26.15.135"
+      ],
+      "ipv6": [
+        "2606:4700:20::681a:f87",
+        "2606:4700:20::681a:e87",
+        "2606:4700:20::ac43:486c"
+      ],
+      "cname": null,
+      "dns_error": null,
+      "http_status": null,
+      "https_status": null,
+      "live": false,
+      "status": "DNS_ONLY",
+      "final_url": null,
+      "redirect_chain": [],
+      "response_time": null,
+      "content_type": null,
+      "page_title": null,
+      "server": null,
+      "technologies": [],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "tryhackme.com",
+        "issuer": "WE1",
+        "not_after": "2026-10-17T21:21:42+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-eu-west-3a.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "15.237.15.65"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-eu-west-3a.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 343.75,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-eu-west-3a.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2027-02-23T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-eu-central-1c.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "3.76.157.246"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-eu-central-1c.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 383.25,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-eu-central-1c.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M04",
+        "not_after": "2027-03-13T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-eu-central-1a.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "35.158.31.237"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-eu-central-1a.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 357.25,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-eu-central-1a.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2027-03-13T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "labs.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "64.239.123.129",
+        "64.239.109.129"
+      ],
+      "ipv6": [],
+      "cname": "f6a9250209d1f1c6.vercel-dns-013.com",
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://labs.tryhackme.com/rooms/coldboot",
+      "redirect_chain": [
+        "https://labs.tryhackme.com/"
+      ],
+      "response_time": 365.31,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "COLD BOOT",
+      "server": "Vercel",
+      "technologies": [
+        {
+          "name": "Vercel",
+          "category": "Hosting/CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Vercel-Id' header"
+        },
+        {
+          "name": "Next.js",
+          "category": "JS Framework",
+          "version": null,
+          "confidence": "High",
+          "evidence": "HTML body signature"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "labs.tryhackme.com",
+        "issuer": "YR1",
+        "not_after": "2026-10-27T09:51:41+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "assets.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "108.138.192.54",
+        "108.138.192.32",
+        "108.138.192.77",
+        "108.138.192.50"
+      ],
+      "ipv6": [
+        "2600:9000:248c:8200:1f:54cc:9ec0:93a1",
+        "2600:9000:248c:f200:1f:54cc:9ec0:93a1",
+        "2600:9000:248c:6800:1f:54cc:9ec0:93a1",
+        "2600:9000:248c:4200:1f:54cc:9ec0:93a1",
+        "2600:9000:248c:2e00:1f:54cc:9ec0:93a1",
+        "2600:9000:248c:c600:1f:54cc:9ec0:93a1",
+        "2600:9000:248c:b400:1f:54cc:9ec0:93a1",
+        "2600:9000:248c:de00:1f:54cc:9ec0:93a1"
+      ],
+      "cname": "ds7cdvzfs022j.cloudfront.net",
+      "dns_error": null,
+      "http_status": 403,
+      "https_status": 403,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://assets.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 439.39,
+      "content_type": "application/xml",
+      "page_title": null,
+      "server": "AmazonS3",
+      "technologies": [
+        {
+          "name": "Amazon CloudFront",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Amz-Cf-Id' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "assets.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M04",
+        "not_after": "2026-12-25T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-eu-central-1b.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "52.29.164.186"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-eu-central-1b.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 361.65,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-eu-central-1b.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2027-03-13T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "cdn-images-staging.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "3.174.255.109",
+        "3.174.255.104",
+        "3.174.255.101",
+        "3.174.255.62"
+      ],
+      "ipv6": [
+        "2600:9000:2912:ca00:6:9014:b680:93a1",
+        "2600:9000:2912:dc00:6:9014:b680:93a1",
+        "2600:9000:2912:c200:6:9014:b680:93a1",
+        "2600:9000:2912:9e00:6:9014:b680:93a1",
+        "2600:9000:2912:e400:6:9014:b680:93a1",
+        "2600:9000:2912:800:6:9014:b680:93a1",
+        "2600:9000:2912:fc00:6:9014:b680:93a1",
+        "2600:9000:2912:da00:6:9014:b680:93a1"
+      ],
+      "cname": "d2pkt6pk8qtzh6.cloudfront.net",
+      "dns_error": null,
+      "http_status": 403,
+      "https_status": 403,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://cdn-images-staging.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 423.28,
+      "content_type": "application/xml",
+      "page_title": null,
+      "server": "AmazonS3",
+      "technologies": [
+        {
+          "name": "Amazon CloudFront",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Amz-Cf-Id' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "cdn-images-staging.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M04",
+        "not_after": "2027-01-12T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "insights-proxy-worker.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "104.26.14.135",
+        "104.26.15.135",
+        "172.67.72.108"
+      ],
+      "ipv6": [
+        "2606:4700:20::ac43:486c",
+        "2606:4700:20::681a:f87",
+        "2606:4700:20::681a:e87"
+      ],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 401,
+      "https_status": 401,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://insights-proxy-worker.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 361.97,
+      "content_type": "text/plain;charset=UTF-8",
+      "page_title": null,
+      "server": "cloudflare",
+      "technologies": [
+        {
+          "name": "Cloudflare",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "tryhackme.com",
+        "issuer": "WE1",
+        "not_after": "2026-10-17T21:21:42+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-ap-south-1a.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "15.206.138.97"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-ap-south-1a.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 916.37,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-ap-south-1a.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2026-12-23T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "auth.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "104.18.35.233",
+        "172.64.152.23"
+      ],
+      "ipv6": [
+        "2606:4700:4400::6812:23e9",
+        "2606:4700:440d::ac40:9817"
+      ],
+      "cname": "cname.workos-dns.com",
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://auth.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 465.08,
+      "content_type": "application/json; charset=utf-8",
+      "page_title": null,
+      "server": "cloudflare",
+      "technologies": [
+        {
+          "name": "Cloudflare",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "auth.tryhackme.com",
+        "issuer": "WE1",
+        "not_after": "2026-11-08T11:21:48+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-us-east-1d.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "3.221.4.78"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-us-east-1d.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 758.67,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-us-east-1d.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2026-12-31T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "pages.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "172.67.72.108",
+        "104.26.15.135",
+        "104.26.14.135"
+      ],
+      "ipv6": [
+        "2606:4700:20::681a:f87",
+        "2606:4700:20::681a:e87",
+        "2606:4700:20::ac43:486c"
+      ],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://pages.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 372.62,
+      "content_type": "text/html",
+      "page_title": "TryHackMe - Under Construction",
+      "server": "cloudflare",
+      "technologies": [
+        {
+          "name": "Cloudflare",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "tryhackme.com",
+        "issuer": "WE1",
+        "not_after": "2026-10-26T19:02:06+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "blog.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "52.222.236.126",
+        "52.222.236.109",
+        "52.222.236.31",
+        "52.222.236.98"
+      ],
+      "ipv6": [
+        "2600:9000:2046:1a00:3:3671:1600:93a1",
+        "2600:9000:2046:ea00:3:3671:1600:93a1",
+        "2600:9000:2046:1200:3:3671:1600:93a1",
+        "2600:9000:2046:9c00:3:3671:1600:93a1",
+        "2600:9000:2046:5000:3:3671:1600:93a1",
+        "2600:9000:2046:9e00:3:3671:1600:93a1",
+        "2600:9000:2046:0:3:3671:1600:93a1",
+        "2600:9000:2046:5400:3:3671:1600:93a1"
+      ],
+      "cname": "d1w3ltjcce6hk.cloudfront.net",
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://tryhackme.com/resources/blog",
+      "redirect_chain": [
+        "https://blog.tryhackme.com/",
+        "https://tryhackme.com/resources/blog/"
+      ],
+      "response_time": 868.36,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "TryHackMe | Resources",
+      "server": "Vercel",
+      "technologies": [
+        {
+          "name": "Next.js",
+          "category": "JS Framework",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Powered-By' header"
+        },
+        {
+          "name": "Vercel",
+          "category": "Hosting/CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Vercel-Id' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "blog.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2027-02-02T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "cdn-images.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "99.84.9.26",
+        "99.84.9.88",
+        "99.84.9.2",
+        "99.84.9.75"
+      ],
+      "ipv6": [
+        "2600:9000:2921:3600:1d:9064:e880:93a1",
+        "2600:9000:2921:e00:1d:9064:e880:93a1",
+        "2600:9000:2921:3c00:1d:9064:e880:93a1",
+        "2600:9000:2921:ae00:1d:9064:e880:93a1",
+        "2600:9000:2921:c00:1d:9064:e880:93a1",
+        "2600:9000:2921:5200:1d:9064:e880:93a1",
+        "2600:9000:2921:a600:1d:9064:e880:93a1",
+        "2600:9000:2921:ac00:1d:9064:e880:93a1"
+      ],
+      "cname": "d7ccbs1h9i7j6.cloudfront.net",
+      "dns_error": null,
+      "http_status": 403,
+      "https_status": 403,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://cdn-images.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 538.25,
+      "content_type": "application/xml",
+      "page_title": null,
+      "server": "AmazonS3",
+      "technologies": [
+        {
+          "name": "Amazon CloudFront",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Amz-Cf-Id' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "cdn-images.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2026-12-19T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-ap-south-1b.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "3.7.245.115"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-ap-south-1b.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 1021.83,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-ap-south-1b.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M04",
+        "not_after": "2026-12-23T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "app.lb-architect.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "52.17.42.128",
+        "63.33.93.2",
+        "52.213.100.193"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": null,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?opparams=%253Fhd%253Dtryhackme.com&dsh=S-1021995647%3A1787422636362887&client_id=169226025535-n6g5noip32et6pbuf485tkmelms4uq0m.apps.googleusercontent.com&hd=tryhackme.com&nonce=PhvUVmFCELyPkFmTHvAC&o2v=2&redirect_uri=http%3A%2F%2Fapp.lb-architect.tryhackme.com%2Fauth%2Fcallback&response_type=code&scope=openid+email+profile&service=lso&state=GoxkByTmMulrhjlZfdTDkpeUqYxhKR&flowName=GeneralOAuthLite&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAMZuLqocHvHiFWVP7EsYXkY6aSt0k4eZJ2PLfLNhwUwvjKZxh2s1OocP-LOvvY_VYa-wHYVDsiCigiAHKi-RQxJtGbeHdiV2YxoqBIHrs71QSgDfoGOqzMyTG-MGwgWVIYEgXCkEhLhVmporX6wX2VHTnr2063HBI_bRoye7Xj6r6ed3CfzCR9yjY4gQZ8N3L-82ohx6yNUhkHkoV0n6UhTad3BBgYF5kHt3LQM9KC9SiHXWpYkAjFr1eYHrzWn9VTo0zXkWiZ9nSevdLAr2WnHsbq0dC5VmG6tuQjOUFFjDTaLbNQyWTHSEo3uXK7kr2X-5UZonQ0pvMEMXGvXu5BTFltr4AFZ0mhb0kymQwmiyCB0BLt85-N3rUDCxTo79i4W4Dzd_g-zyQQFTEyjmbLxhKzt1lNL55mYKkXcaVENmU5GVWONW0pInYy6vzO2tAI4JvTEhw7Uf7uhKNcH78C26dhnw-hBNF_Xnx7zaPZcKdbj5YU%26flowName%3DGeneralOAuthFlow%26as%3DS-1021995647%253A1787422636362887%26client_id%3D169226025535-n6g5noip32et6pbuf485tkmelms4uq0m.apps.googleusercontent.com%23&app_domain=http%3A%2F%2Fapp.lb-architect.tryhackme.com&rart=ANgoxcd9A9GcO8TX7Wsh5D4Hhr759oPXxtfMYH8X1agrXhBu3YsY_cnNQoNzJIEJhqqnpcbXaUv1r7amZzXyssMyqwcTQ64g70dvZRdtzaD-KTCBcbvXkYY",
+      "redirect_chain": [
+        "https://app.lb-architect.tryhackme.com/",
+        "https://app.lb-architect.tryhackme.com/auth/login?next=http://app.lb-architect.tryhackme.com/",
+        "https://accounts.google.com/o/oauth2/v2/auth?response_type=code&client_id=169226025535-n6g5noip32et6pbuf485tkmelms4uq0m.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Fapp.lb-architect.tryhackme.com%2Fauth%2Fcallback&scope=openid+email+profile&state=GoxkByTmMulrhjlZfdTDkpeUqYxhKR&hd=tryhackme.com&nonce=PhvUVmFCELyPkFmTHvAC"
+      ],
+      "response_time": 1139.67,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": null,
+      "server": "ESF",
+      "technologies": [],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "app.lb-architect.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M04",
+        "not_after": "2026-12-05T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "status-api.vm.tryhackme.com",
+      "discovery_sources": [
+        "certspotter"
+      ],
+      "dns_status": "NOT_RESOLVED",
+      "ipv4": [],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": null,
+      "https_status": null,
+      "live": false,
+      "status": "NOT_LIVE",
+      "final_url": null,
+      "redirect_chain": [],
+      "response_time": null,
+      "content_type": null,
+      "page_title": null,
+      "server": null,
+      "technologies": [],
+      "tls_information": null,
+      "error": null
+    },
+    {
+      "subdomain": "status.vm.tryhackme.com",
+      "discovery_sources": [
+        "certspotter"
+      ],
+      "dns_status": "NOT_RESOLVED",
+      "ipv4": [],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": null,
+      "https_status": null,
+      "live": false,
+      "status": "NOT_LIVE",
+      "final_url": null,
+      "redirect_chain": [],
+      "response_time": null,
+      "content_type": null,
+      "page_title": null,
+      "server": null,
+      "technologies": [],
+      "tls_information": null,
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-us-west-2a.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "44.255.239.36"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": null,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "http://novnc.cell-prod-us-west-2a.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 1514.06,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": false,
+        "tls_success": false,
+        "subject_cn": null,
+        "issuer": null,
+        "not_after": null,
+        "error": "TIMEOUT"
+      },
+      "error": null
+    },
+    {
+      "subdomain": "costra.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "18.168.52.238",
+        "13.134.144.180",
+        "18.169.136.111"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": null,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://costra.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 376.43,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Streamlit",
+      "server": "uvicorn",
+      "technologies": [
+        {
+          "name": "React",
+          "category": "JS Framework",
+          "version": null,
+          "confidence": "Medium",
+          "evidence": "HTML body signature"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "costra.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2026-11-14T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-eu-west-1b.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "52.48.28.66"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-eu-west-1b.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 608.54,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-eu-west-1b.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2027-01-01T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "lp.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "199.60.103.2",
+        "199.60.103.254"
+      ],
+      "ipv6": [
+        "2606:2c40::c73c:6702",
+        "2606:2c40::c73c:67fe"
+      ],
+      "cname": "7168674.group24.sites.hubspot.net",
+      "dns_error": null,
+      "http_status": 404,
+      "https_status": 404,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://lp.tryhackme.com/event-billington-cybersecuritysummit-2026",
+      "redirect_chain": [
+        "https://lp.tryhackme.com/"
+      ],
+      "response_time": 751.37,
+      "content_type": "text/html",
+      "page_title": "Open main menu",
+      "server": "cloudflare",
+      "technologies": [
+        {
+          "name": "Cloudflare",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'Server' header"
+        },
+        {
+          "name": "jQuery",
+          "category": "JS Library",
+          "version": null,
+          "confidence": "High",
+          "evidence": "HTML body signature"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "lp.tryhackme.com",
+        "issuer": "WE1",
+        "not_after": "2026-10-19T09:03:37+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "status.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "64.239.109.1",
+        "64.239.123.1"
+      ],
+      "ipv6": [],
+      "cname": "c1018e797860b798.vercel-dns-013.com",
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://vercel.com/login?next=%2Fsso-api%3Furl%3Dhttps%253A%252F%252Fstatus.tryhackme.com%252F%26nonce%3Dc2ad111a6e1eab92265900fc3d37df163b216ed212971ae12d4e5f32f4c2a8f2",
+      "redirect_chain": [
+        "https://status.tryhackme.com/",
+        "https://vercel.com/sso-api?url=https%3A%2F%2Fstatus.tryhackme.com%2F&nonce=c2ad111a6e1eab92265900fc3d37df163b216ed212971ae12d4e5f32f4c2a8f2"
+      ],
+      "response_time": 957.99,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Login – Vercel",
+      "server": "Vercel",
+      "technologies": [
+        {
+          "name": "Vercel",
+          "category": "Hosting/CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'X-Vercel-Id' header"
+        },
+        {
+          "name": "Next.js",
+          "category": "JS Framework",
+          "version": null,
+          "confidence": "High",
+          "evidence": "HTML body signature"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "status.tryhackme.com",
+        "issuer": "YR1",
+        "not_after": "2026-10-19T20:48:28+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "novnc.cell-prod-us-west-2b.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "44.241.132.147"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": 200,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://novnc.cell-prod-us-west-2b.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 1127.81,
+      "content_type": "application/octet-stream, text/plain; charset=utf-8",
+      "page_title": null,
+      "server": "nginx/1.29.1",
+      "technologies": [
+        {
+          "name": "Nginx",
+          "category": "Web Server",
+          "version": "1.29.1",
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "*.cell-prod-us-west-2b.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M01",
+        "not_after": "2027-03-03T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "ec2-dash.vm.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "18.169.136.111",
+        "13.134.144.180",
+        "18.168.52.238"
+      ],
+      "ipv6": [],
+      "cname": null,
+      "dns_error": null,
+      "http_status": null,
+      "https_status": 200,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://ec2-dash.vm.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 378.18,
+      "content_type": "text/html; charset=utf-8",
+      "page_title": "Streamlit",
+      "server": "uvicorn",
+      "technologies": [
+        {
+          "name": "React",
+          "category": "JS Framework",
+          "version": null,
+          "confidence": "Medium",
+          "evidence": "HTML body signature"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "ec2-dash.vm.tryhackme.com",
+        "issuer": "Amazon RSA 2048 M04",
+        "not_after": "2027-02-09T23:59:59+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "setup.auth.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget",
+        "certspotter"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "172.64.152.23",
+        "104.18.35.233"
+      ],
+      "ipv6": [
+        "2606:4700:4400::6812:23e9",
+        "2606:4700:440d::ac40:9817"
+      ],
+      "cname": "cname.workos-dns.com",
+      "dns_error": null,
+      "http_status": null,
+      "https_status": 404,
+      "live": true,
+      "status": "LIVE",
+      "final_url": "https://setup.auth.tryhackme.com/",
+      "redirect_chain": [],
+      "response_time": 624.87,
+      "content_type": null,
+      "page_title": null,
+      "server": "cloudflare",
+      "technologies": [
+        {
+          "name": "Cloudflare",
+          "category": "CDN",
+          "version": null,
+          "confidence": "High",
+          "evidence": "'Server' header"
+        }
+      ],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": true,
+        "subject_cn": "setup.auth.tryhackme.com",
+        "issuer": "WE1",
+        "not_after": "2026-11-08T05:17:09+00:00",
+        "error": null
+      },
+      "error": null
+    },
+    {
+      "subdomain": "cancel.tryhackme.com",
+      "discovery_sources": [
+        "hackertarget"
+      ],
+      "dns_status": "RESOLVED",
+      "ipv4": [
+        "54.203.183.221",
+        "54.188.43.137",
+        "35.164.219.145"
+      ],
+      "ipv6": [],
+      "cname": "custom.prod.brightback.com",
+      "dns_error": null,
+      "http_status": null,
+      "https_status": null,
+      "live": false,
+      "status": "DNS_ONLY",
+      "final_url": null,
+      "redirect_chain": [],
+      "response_time": null,
+      "content_type": null,
+      "page_title": null,
+      "server": null,
+      "technologies": [],
+      "tls_information": {
+        "tls_available": true,
+        "tls_success": false,
+        "subject_cn": null,
+        "issuer": null,
+        "not_after": null,
+        "error": "SSL_ERROR: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1033)"
+      },
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+subdomain,dns_status,live,http_status,https_status,final_url,server,technologies,response_time
+sis.nmu.edu.eg,RESOLVED,False,,,,,,
+es.nmu.edu.eg,RESOLVED,True,400,200,https://es.nmu.edu.eg/,Apache,Apache; jQuery; Bootstrap,326.13
+em.nmu.edu.eg,RESOLVED,True,,200,https://em.nmu.edu.eg/,nginx/1.18.0 (Ubuntu),Nginx,279.05
+bs.nmu.edu.eg,RESOLVED,True,,401,https://bs.nmu.edu.eg/,nginx/1.18.0 (Ubuntu),Nginx; jQuery; Bootstrap,370.1
+nawah.nmu.edu.eg,RESOLVED,True,,200,https://nawah.nmu.edu.eg/login,,Next.js,316.77
+erp.nmu.edu.eg,RESOLVED,True,,200,https://erp.nmu.edu.eg/,nginx/1.18.0 (Ubuntu),Nginx,506.54
+nmu.edu.eg,RESOLVED,True,,200,https://nmu.edu.eg/ar,Apache/2.4.63 (Ubuntu),Apache; jQuery; Laravel; Cloudflare CDN,540.93
+www.nmu.edu.eg,RESOLVED,True,,200,https://www.nmu.edu.eg/ar,Apache/2.4.63 (Ubuntu),Apache; jQuery; Laravel; Cloudflare CDN,596.78
+qb.nmu.edu.eg,RESOLVED,True,,200,https://qb.nmu.edu.eg/,nginx/1.18.0 (Ubuntu),Nginx; Cloudflare CDN,177.59
+ep.nmu.edu.eg,RESOLVED,True,,200,https://ep.nmu.edu.eg/,nginx/1.18.0 (Ubuntu),Nginx,279.47
+library.nmu.edu.eg,RESOLVED,True,,200,https://library.nmu.edu.eg/NMU/Libraries/,Microsoft-IIS/10.0,IIS; ASP.NET; jQuery; Bootstrap,224.33
+nlms.nmu.edu.eg,RESOLVED,True,,200,https://nlms.nmu.edu.eg/login/index.php,Apache,Apache; jQuery,233.05
+lms.nmu.edu.eg,RESOLVED,False,,,,,,
